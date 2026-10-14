@@ -28,6 +28,6 @@ if(st.button('Fetch Weather')):
         col2.metric('Humidity', f'💦{humidity}%')
         col3.metric('Wind Speed', f'🍃{wind_speed} m/s')
         col4.metric('Weather Condition',f'🌤️{weather_condition}')
-else:
-    st.error('City Not Found')
+    else:
+        st.error('City Not Found')
 
